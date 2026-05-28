@@ -57,3 +57,57 @@ z= Boolean(z);
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z); */
+
+//nextup is const which we already know about. It is used to declare variables that cannot be reassigned.
+//next is Math object which provides various mathematical functions and constants. For example, Math.PI gives the value of pi, and Math.sqrt(16) gives the square root of 16. We can also use Math.random() to generate a random number between 0 and 1.
+/*
+console.log(Math.PI);
+console.log(Math.E);
+
+console.log(Math.round(-4.7653));
+console.log(Math.round(-4.321));
+console.log(Math.round(4.7653));
+console.log(Math.round(4.321));
+
+console.log(Math.floor(-4.7653));
+console.log(Math.floor(-4.321));
+console.log(Math.floor(4.7653));
+console.log(Math.floor(4.321));
+
+console.log(Math.ceil(-4.7653));
+console.log(Math.ceil(-4.321));
+console.log(Math.ceil(4.7653));
+console.log(Math.ceil(4.321));
+
+console.log(Math.trunc(-4.7653));
+console.log(Math.trunc(-4.321));
+console.log(Math.trunc(4.7653));
+console.log(Math.trunc(4.321));
+
+console.log(Math.pow(2, 3));
+console.log(Math.sqrt(16));
+
+console.log(Math.log(10));
+console.log(Math.sin(45));
+console.log(Math.cos(45));
+console.log(Math.tan(45));
+
+console.log(Math.abs(-5.55));
+console.log(Math.abs(5.55));
+
+console.log(Math.sign(-5.55));
+console.log(Math.sign(5.55));
+console.log(Math.sign(0));
+
+console.log(Math.max(5, 10, 15, 20)); //we can do this n times
+console.log(Math.min(5, 10, 15, 20)); //we can do this n times
+
+console.log(Math.random()); //number between 0 and 1
+console.log(Math.random() * 100); //number between 0 and 100
+console.log(Math.floor(Math.random() * 100)); //integer between 0 and 99
+console.log(Math.floor(Math.random() * 100) + 1); //integer between 1 and 100
+console.log(Math.floor(Math.random() * (100 - 50)) + 50); //integer between 50 and 100
+console.log(Math.floor(Math.random() * (100 - 50) + 1) + 50); //integer between 51 and 100
+*/
+
+

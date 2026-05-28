@@ -1,0 +1,77 @@
+/* FOR counterProgram1.js (first version of the counter program) */
+:root {
+    --border-color1: #A5CF83;
+    --border-color2: #F0E76F;
+    --border-color3: #E89951;
+    --background-color: #F5F5F5;
+    --text-color1: #303841;
+    --text-color2: #0f0709;
+    --text-color3: #760031;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+    width: 60vh;
+    height: 90vh;
+    margin: auto;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 5px solid var(--border-color1);
+    border-radius: 25px;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color1);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2,
+h3 {
+    margin: 0px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 45px;
+    color: var(--text-color2);
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: var(--text-color3);
+}
+
+#clickMe {
+    width: 50%;
+    border: 5px solid var(--border-color2);
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px 5px var(--border-color1);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+li {
+    list-style: none;
+    border: 5px solid var(--border-color3);
+    border-radius: 50%;
+    border-width: 5px 5px 0px 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 50px 5px var(--border-color1);
+}
+
+svg {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
