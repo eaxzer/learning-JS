@@ -110,4 +110,10 @@ console.log(Math.floor(Math.random() * (100 - 50)) + 50); //integer between 50 a
 console.log(Math.floor(Math.random() * (100 - 50) + 1) + 50); //integer between 51 and 100
 */
 
-
+/*
+let age=25;
+console.log(age>=18? `You are an adult.` : `You are a minor.`);
+let purchaseAmount=150;
+let discountAmount= purchaseAmount>100?10:0;
+console.log(`Final price: ${purchaseAmount-discountAmount}`);
+*/
