@@ -117,3 +117,42 @@ let purchaseAmount=150;
 let discountAmount= purchaseAmount>100?10:0;
 console.log(`Final price: ${purchaseAmount-discountAmount}`);
 */
+/*
+console.log((`Hello World!`).charAt(4));
+console.log((`Hello World!`).charAt(12)); //out of bounds, returns empty string
+
+console.log((`Hello World!`).indexOf("o")); //returns the index of the first occurrence of "o"
+console.log((`Hello World!`).lastIndexOf(`o`));
+console.log((`Hello World!`).length);
+console.log((`     Hello World!`).trim());
+let string = `Hello World!`;
+console.log(string.toUpperCase());
+console.log(string.toLowerCase());
+console.log(string.repeat(3));
+console.log(string.startsWith(`H`));
+console.log(string.startsWith(` `));
+console.log(string.endsWith(`!`));
+console.log(string.includes(`!`)); //if there is ! in the string, true.
+console.log(string.replaceAll(`!`, ``)); //replaces ! with no character.
+console.log(string.replaceAll(/[^a-zA-Z0-9]/g , ``)); //keeps a-z, A-Z, 0-9 only
+console.log(string.replaceAll(/[a-zA-Z0-9]/g , ``)); //removes a-z, A-Z, 0-9, keeps symbols only
+console.log(string.replaceAll(/[^A,E,I,O,U]/)); //keeps these letters only.
+console.log(string.replaceAll(/[A,E,I,O,U]/)); //remove these letters.
+console.log(string.replaceAll(/Hello/g , `Hi`)); //replaces hello with Hi.
+console.log(string.padStart(15, 0)); //makes the string 15 character-ed, with specified character.
+console.log(string.padEnd(15, 0)); //makes the string 15 character-ed, with specified character.
+console.log(string.slice(0 , 5)); //index from o for first. index from 1 for second.
+console.log(string.slice(6 , 12)); 
+console.log(string.slice(6)); 
+console.log(string.slice(0,1)); //first char
+console.log(string.slice(-1)); //last char
+console.log(string.slice(-6));
+let username= "Ankit Kumar Sah";
+console.log(username.split(" "));
+console.log(username.split(" ")[0]); //first name
+console.log(username.split(" ")[1]); //middle name
+console.log(username.split(" ")[2]); //last name
+console.log(username.slice(0 , username.indexOf(` `))); //first name
+console.log(username.slice(username.indexOf(' ') + 1, username.lastIndexOf(` `))); //middle name
+console.log(username.slice(username.lastIndexOf(` `)+1)); //last name
+*/
