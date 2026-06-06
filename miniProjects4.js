@@ -236,7 +236,8 @@ switch (options){
 } */
 
 
-// 25. In textAnalyzer.js file.
+// 25. In textAnalyzer.js file. Create a mini “text analyzer”. It should display: word count, vowel count, consonant count, longest word, shortest word, uppercase version, lowercase version. All from one input.
+
 
         
 
