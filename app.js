@@ -156,3 +156,5 @@ console.log(username.slice(0 , username.indexOf(` `))); //first name
 console.log(username.slice(username.indexOf(' ') + 1, username.lastIndexOf(` `))); //middle name
 console.log(username.slice(username.lastIndexOf(` `)+1)); //last name
 */
+/* method chaining */ /*let username= `    ankit KUMAR saH    `;
+console.log(username.trim().charAt(0).toUpperCase() + username.trim().replaceAll(` `, `_`).slice(1).toLowerCase());*/
