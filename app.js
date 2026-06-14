@@ -158,3 +158,5 @@ console.log(username.slice(username.lastIndexOf(` `)+1)); //last name
 */
 /* method chaining */ /*let username= `    ankit KUMAR saH    `;
 console.log(username.trim().charAt(0).toUpperCase() + username.trim().replaceAll(` `, `_`).slice(1).toLowerCase());*/
+
+// function basics, return basics. What you send to function is called argument, what function sends back is called return value. We can also have parameters which are like variables that hold the values of arguments inside the function. We can have multiple parameters and multiple arguments. The number of arguments should be equal to the number of parameters. If there are more arguments than parameters, the extra arguments will be ignored. If there are fewer arguments than parameters, the missing parameters will be undefined.
